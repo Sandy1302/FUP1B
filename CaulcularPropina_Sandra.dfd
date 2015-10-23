@@ -1,0 +1,49 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+18
+'Calcular propina'
+4
+1
+29
+'Personas que fueron a comer'
+5
+1
+10
+asistentes
+4
+1
+8
+'Cuenta'
+5
+1
+5
+pesos
+6
+3
+7
+propina
+10
+pesos*0.10
+5
+total
+13
+propina+pesos
+8
+personas
+16
+total/asistentes
+4
+1
+21
+'total a pagar',total
+4
+1
+37
+'Total a pagar por personas',personas
+1

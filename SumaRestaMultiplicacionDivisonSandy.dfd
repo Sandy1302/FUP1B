@@ -1,0 +1,63 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+40
+'Suma, Resta, Multiplicacion Y Division'
+4
+1
+16
+'Dame un numero'
+5
+1
+2
+N1
+4
+1
+18
+'Dame Otro Numero'
+5
+1
+2
+N2
+6
+3
+15
+Multiplicacion 
+5
+N1*N2
+5
+Resta
+5
+N1-N2
+8
+Division
+5
+N1/N2
+6
+1
+4
+Suma
+5
+N1+N2
+4
+1
+32
+'Resultado de la suma es', Suma 
+4
+1
+51
+'Resultado de la multiplicacion es', Multiplicacion
+4
+1
+33
+'Resultado de la resta es', Resta
+4
+1
+39
+'Resultado de la division es', Division
+1
