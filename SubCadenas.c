@@ -1,23 +1,43 @@
 #include<stdio.h>
-char cadena[30];
-char i,sub;
+char cadena[40];
+char subcadena[40];
+int a=0;
+int j=0;
+int i;
 int main()
 {
-	printf("Ingresa una plalabra\n");//2 puntos mas y comparar caracter por caracter en la cadena
+	printf("Ingresa una plalabra\n");
 	scanf("%s",cadena);
 	printf("Ingresa alguna palabra que este dentro de tu plabra\n");
-	scanf(" %c",sub);
-	
-	for(i=0; i<30; i++)
+	scanf(" %c",subcadena);
+	while(cadena[a] != '\0')
 	{
-		if(cadena[i] != sub)//==comparar
+		a++;
+		while(subcadena[j] != '\0')
 		{
-			cadena[i]=sub;
-			printf("%s",cadena);
+			j++;
+			if(a<=j)
+	{
+		for (i=0; i<=a; i++)
+		{
+			if(cadena[a] == subcadena[j] && subcadena[j] != '\0')
+			i++;
 		}
-		else 
+		if(i==a)
 		{
-			printf("Adios...");
+			printf("la cadena si existe%c", subcadena);
+		}
+		else
+		{
+			printf("la cadena no existe");
 		}
 	}
+	else
+	{
+		printf("nop la cadena no existe");
+	}
+		}
+	}
+	
+	
 }
